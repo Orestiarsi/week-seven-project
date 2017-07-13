@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 mongoose.Promise = require('bluebird');
 mongoose.connect('mongodb://localhost:27017/stats');
-const Stats = require('./models/stats.js');
+// const Stats = require('./models/stats.js');
 const statsRouter = require('./routes/api');
 const app = express();
 
